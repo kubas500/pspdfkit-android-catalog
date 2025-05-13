@@ -228,6 +228,9 @@
     <string name="documentPagerExampleTitle">Multiple document pager</string>
     <string name="documentPagerExampleDescription">Shows how multiple pdfs can be utilised in a Compose Horizontal Pager</string>
 
+    <string name="customMainToolbarExampleTitle">Adjust layout with custom toolbar</string>
+    <string name="customSignatureParseExampleTitle">Signature as result crash</string>
+
     <string name="tryInstantExampleTitle">Try Instant</string>
     <string name="tryInstantExampleDescription">Downloads a document for collaborative editing.</string>
 
@@ -320,6 +323,7 @@
 
     <!-- Example section names -->
     <string name="example_section_industry">Industry Examples</string>
+    <string name="example_section_playground">Playground</string>
     <string name="example_section_basic">Basic</string>
     <string name="example_section_opening_documents">Opening Documents</string>
     <string name="example_section_behaviour_customization">Behaviour Customization</string>

@@ -58,6 +58,8 @@ import com.pspdfkit.catalog.examples.kotlin.CustomApplicationPolicyExample
 import com.pspdfkit.catalog.examples.kotlin.CustomDataProviderExample
 import com.pspdfkit.catalog.examples.kotlin.CustomFragmentRuntimeConfigurationExample
 import com.pspdfkit.catalog.examples.kotlin.CustomLayoutExample
+import com.pspdfkit.catalog.examples.kotlin.CustomMainToolbarExample
+import com.pspdfkit.catalog.examples.kotlin.CustomSignatureParseExample
 import com.pspdfkit.catalog.examples.kotlin.DarkThemeExample
 import com.pspdfkit.catalog.examples.kotlin.DefaultExample
 import com.pspdfkit.catalog.examples.kotlin.DigitalSignatureExample
@@ -122,6 +124,13 @@ import com.pspdfkit.catalog.examples.kotlin.customsearchuicompose.CustomSearchUi
 import com.pspdfkit.catalog.examples.kotlin.instant.InstantExample
 
 fun getSectionsWithExamples(context: Context) = listOf(
+    SdkExample.Section(
+        context.getString(R.string.example_section_playground),
+        R.drawable.ic_basic,
+        CustomMainToolbarExample(context),
+        CustomSignatureParseExample(context)
+    ),
+
     SdkExample.Section(
         context.getString(R.string.example_section_basic),
         R.drawable.ic_basic,

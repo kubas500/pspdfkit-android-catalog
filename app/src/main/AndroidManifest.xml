@@ -599,6 +599,18 @@
             android:label="@string/documentPagerExampleTitle"
             android:windowSoftInputMode="adjustNothing" />
 
+        <activity
+            android:name=".examples.kotlin.CustomMainToolbarActivity"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name=".examples.kotlin.CustomSignatureParseActivity"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
+            android:name=".examples.kotlin.ResultSignatureActivity"
+            android:windowSoftInputMode="adjustNothing" />
+
     </application>
 
 </manifest>
