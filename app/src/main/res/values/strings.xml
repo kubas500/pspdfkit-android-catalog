@@ -230,6 +230,7 @@
 
     <string name="customMainToolbarExampleTitle">Adjust layout with custom toolbar</string>
     <string name="customSignatureParseExampleTitle">Signature as result crash</string>
+    <string name="customNullPointerIdentifierExampleTitle">Null pointer identifier crash</string>
 
     <string name="tryInstantExampleTitle">Try Instant</string>
     <string name="tryInstantExampleDescription">Downloads a document for collaborative editing.</string>

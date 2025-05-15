@@ -59,6 +59,7 @@ import com.pspdfkit.catalog.examples.kotlin.CustomDataProviderExample
 import com.pspdfkit.catalog.examples.kotlin.CustomFragmentRuntimeConfigurationExample
 import com.pspdfkit.catalog.examples.kotlin.CustomLayoutExample
 import com.pspdfkit.catalog.examples.kotlin.CustomMainToolbarExample
+import com.pspdfkit.catalog.examples.kotlin.CustomNullPointerIdentifierExample
 import com.pspdfkit.catalog.examples.kotlin.CustomSignatureParseExample
 import com.pspdfkit.catalog.examples.kotlin.DarkThemeExample
 import com.pspdfkit.catalog.examples.kotlin.DefaultExample
@@ -128,7 +129,8 @@ fun getSectionsWithExamples(context: Context) = listOf(
         context.getString(R.string.example_section_playground),
         R.drawable.ic_basic,
         CustomMainToolbarExample(context),
-        CustomSignatureParseExample(context)
+        CustomSignatureParseExample(context),
+        CustomNullPointerIdentifierExample(context)
     ),
 
     SdkExample.Section(

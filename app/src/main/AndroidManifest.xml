@@ -611,6 +611,9 @@
             android:name=".examples.kotlin.ResultSignatureActivity"
             android:windowSoftInputMode="adjustNothing" />
 
+        <activity
+            android:name=".examples.kotlin.CustomNullPointerIdentifierActivity"
+            android:windowSoftInputMode="adjustNothing" />
     </application>
 
 </manifest>
