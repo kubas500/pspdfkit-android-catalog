@@ -94,8 +94,8 @@ class AnnotationWithAlphaCreationActivity : PdfActivity() {
         viewModel.createObjects {
             val pageIndex = 0
             createNoteAnnotation(pageIndex)
-            createHighlightAnnotation(pageIndex, "PSPDFKit", Color.YELLOW)
-            createHighlightAnnotation(pageIndex, "QuickStart", Color.GREEN)
+            createHighlightAnnotation(pageIndex, "Nutrient", Color.YELLOW)
+            createHighlightAnnotation(pageIndex, "Welcome", Color.GREEN)
             createFreeTextAnnotation(pageIndex)
             createInkAnnotation(pageIndex)
             createLineAnnotation(pageIndex)

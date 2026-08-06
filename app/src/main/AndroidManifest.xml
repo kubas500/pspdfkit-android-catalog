@@ -348,6 +348,11 @@
             android:windowSoftInputMode="adjustNothing" />
 
         <activity
+            android:name=".examples.kotlin.ComposeSplitScreenActivity"
+            android:label="@string/composeSplitScreenExampleTitle"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
             android:name=".examples.kotlin.FormInterceptActivity"
             android:label="@string/jetpackExampleTitle"
             android:windowSoftInputMode="adjustNothing" />

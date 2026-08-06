@@ -96,7 +96,7 @@ class RawResourceDataProvider(@param:RawRes private val resId: Int) :
     override fun getTitle(): String {
         // If you know the file or document name upfront, you can return it here. Otherwise return null,
         // which will instruct Nutrient to use the title stored within the document (if any).
-        return "PSPDFKit Quickstart Guide"
+        return "Nutrient Welcome"
     }
 
     // The code below is standard Android parcelation code. If you don't know how to implement the Parcelable

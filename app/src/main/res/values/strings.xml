@@ -65,6 +65,8 @@
     <string name="aiAssistantViewPagerExampleDescription">AI-powered document chat across multiple documents using ViewPager2 and PdfFragment. Requires the AI Assistant demo server running locally.</string>
     <string name="splitDocumentExampleTitle">Split View</string>
     <string name="splitDocumentExampleDescription">Display two PdfFragment instances side by side in a single activity.</string>
+    <string name="composeSplitScreenExampleTitle">Split Screen (Compose)</string>
+    <string name="composeSplitScreenExampleDescription">Show two documents side by side with two DocumentView composables, each with its own configuration.</string>
     <string name="aesExampleTitle">AES Encrypted File</string>
     <string name="aesExampleDescription">Open AES-encrypted PDFs using a custom DataProvider without decrypting to disk first.</string>
     <string name="documentSwitcherExampleTitle">Document Switcher</string>

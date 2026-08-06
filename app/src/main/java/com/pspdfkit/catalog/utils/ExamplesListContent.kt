@@ -46,6 +46,7 @@ import com.pspdfkit.catalog.examples.kotlin.AnnotationWithAlphaCreationExample
 import com.pspdfkit.catalog.examples.kotlin.BookmarkHighlightingExample
 import com.pspdfkit.catalog.examples.kotlin.CombineElectronicSignaturesWithDigitalSigningExample
 import com.pspdfkit.catalog.examples.kotlin.ComposeExampleApp
+import com.pspdfkit.catalog.examples.kotlin.ComposeSplitScreenExample
 import com.pspdfkit.catalog.examples.kotlin.ConstructionExample
 import com.pspdfkit.catalog.examples.kotlin.ConvertHtmlToPdfExample
 import com.pspdfkit.catalog.examples.kotlin.CustomActionsExample
@@ -173,6 +174,7 @@ fun getSectionsWithExamples(context: Context) = listOf(
         DocumentPagerExample(context),
         DocumentSwitcherExample(context),
         SplitDocumentExample(context),
+        ComposeSplitScreenExample(context),
         ELearningExample(context),
     ),
     // "How do I create, configure, and manage annotations?"
