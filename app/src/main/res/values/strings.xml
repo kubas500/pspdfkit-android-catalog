@@ -104,6 +104,7 @@
     <string name="annotationOverlayExampleTitle">Annotation Overlay</string>
     <string name="annotationOverlayExampleDescription">Display annotations in overlay mode as separate Android Views above the page.</string>
     <string name="annotationOverlayVisibilityExampleTitle">Overlay Visibility</string>
+    <string name="popupToolbarIssueExampleActivityTitle">PopupToolbar Issue</string>
     <string name="annotationOverlayVisibilityExampleDescription">Toggle visibility of annotation overlays at runtime.</string>
     <string name="toggleAnnotationOverlayVisibility">Toggle annotation overlay visibility</string>
     <string name="annotationConfigurationExampleTitle">Annotation Configuration</string>
@@ -330,6 +331,7 @@
     <string name="toast_cache_cleared">Cache cleared!</string>
 
     <!-- Example section names -->
+    <string name="example_section_issues">Issues</string>
     <string name="example_section_getting_started">Getting Started</string>
     <string name="example_section_opening_documents">Opening Documents</string>
     <string name="example_section_viewing_navigation">Viewing &amp; Navigation</string>

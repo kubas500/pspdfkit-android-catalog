@@ -105,6 +105,7 @@ import com.pspdfkit.catalog.examples.kotlin.PersistentAnnotationSidebarExample
 import com.pspdfkit.catalog.examples.kotlin.PersistentTabsExample
 import com.pspdfkit.catalog.examples.kotlin.PlaygroundExample
 import com.pspdfkit.catalog.examples.kotlin.PopupToolbarCustomisationExample
+import com.pspdfkit.catalog.examples.kotlin.PopupToolbarIssueExample
 import com.pspdfkit.catalog.examples.kotlin.ProgressProviderExample
 import com.pspdfkit.catalog.examples.kotlin.ReaderViewExample
 import com.pspdfkit.catalog.examples.kotlin.RemoteUrlExample
@@ -123,6 +124,11 @@ import com.pspdfkit.catalog.examples.kotlin.ZoomExample
 import com.pspdfkit.catalog.examples.kotlin.instant.InstantExample
 
 fun getSectionsWithExamples(context: Context) = listOf(
+    SdkExample.Section(
+        context.getString(R.string.example_section_issues),
+        R.drawable.ic_basic,
+        PopupToolbarIssueExample(context),
+    ),
     // Entry points for the SDK — "I want to show a PDF."
     SdkExample.Section(
         context.getString(R.string.example_section_getting_started),
