@@ -223,6 +223,11 @@
             android:windowSoftInputMode="adjustNothing" />
 
         <activity
+            android:name=".examples.kotlin.SignatureMultiDocumentIssueExampleActivity"
+            android:label="@string/multiDocIssueExampleActivityTitle"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <activity
             android:name=".examples.kotlin.AnnotationFlagsActivity"
             android:label="@string/annotationFlagsExampleTitle"
             android:windowSoftInputMode="adjustNothing" />
